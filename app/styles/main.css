@@ -6,68 +6,85 @@
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
+
+.header, .marketing, .footer {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* Make the masthead heading the same height as the navigation */
+body {
+  font-family: Avenir;
+}
+
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
 }
-
 .sf-background {
-        background:
-                linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.8) 100%),
-                no-repeat top center url(../images/sf.jpg);
-        background-size: cover;
-        position: relative;
-        color: #FFFFFF;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), no-repeat top center url(../images/sf.jpg);
+  background-size: cover;
+  position: relative;
+  color: #FFFFFF;
 }
-
 .splash {
-        padding: 10px 0;
+  padding-top: 10px;
+  box-shadow: #21110B 0px 0px 10px 1px;
 }
-
 .main-content {
-        padding-top: 20px;
-        font-size: 16px;
+  font-size: 16px;
 }
-
 .welcome-text {
-        text-align: center;
-        padding: 100px 0;
+  text-align: center;
+  padding: 100px 0;
+}
+.summary {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  background: linear-gradient(to bottom, #2B292E 21%, #53646A 100%);
+  color: seashell;
+  font-family: Avenir-Light;
+  text-shadow: 1.5px 1px 0.5px black;
+}
+.summary p {
+  width: 80%;
+}
+.last-year {
+  background: yellow;
+}
+.logos {
+  display: flex;
+}
+.logo {
+  background: coral;
+}
+.this-year {
+  bacground: gray;
+}
+.signature {
+  background: lightblue;
 }
 
 p {
-        margin-bottom: 1em
+  margin: 0;
+  line-height: 1.5em;
 }
-
 #faq p {
-        margin-bottom: 3em;
+  margin-bottom: 3em;
 }
-
 .nav-pills > li > a {
-        font-weight: bold;
-        color: #FFF;
+  font-weight: bold;
+  color: #FFF;
 }
-
-.nav-pills > li > a:focus,
-.nav-pills > li > a:hover {
-        color: #000;
-        background-color: rgba(255, 255, 255, 0.4);
+.nav-pills > li > a:focus, .nav-pills > li > a:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.4);
 }
-
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:focus,
-.nav-pills > li.active > a:hover {
-        color: #000;
-        background-color: rgba(255, 255, 255, 1);
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 /* Responsive: Portrait tablets and up */
@@ -75,20 +92,15 @@ p {
   .container {
     max-width: 730px;
   }
-
   /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
+  .header, .marketing, .footer {
     padding-left: 0;
     padding-right: 0;
   }
-
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
   }
-
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;

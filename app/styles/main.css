@@ -4,18 +4,13 @@
   color: #000;
   padding: 0.2em 0;
 }
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-
 .header, .marketing, .footer {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 body {
   font-family: Avenir;
 }
-
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -23,7 +18,7 @@ body {
   padding-bottom: 19px;
 }
 .sf-background {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), no-repeat top center url(../images/sf.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), no-repeat top center url(../images/sf.jpg);
   background-size: cover;
   position: relative;
   color: #FFFFFF;
@@ -38,35 +33,71 @@ body {
 .welcome-text {
   text-align: center;
   padding: 100px 0;
-}
-.summary {
-  display: flex;
-  justify-content: center;
-  font-size: 2em;
-  background: linear-gradient(to bottom, #2B292E 21%, #53646A 100%);
-  color: seashell;
   font-family: Avenir-Light;
-  text-shadow: 1.5px 1px 0.5px black;
+  text-shadow: 1px 1px 1px black;
 }
-.summary p {
+.welcome-text h2 {
+  margin: 0
+}
+.main-section {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  flex-direction: column;
+}
+.main-section p {
   width: 80%;
 }
+.summary {
+  background: linear-gradient(to bottom, #2B292E 21%, #53646A 100%);  color: seashell;
+  font-family: Avenir-Light;
+  text-shadow: 1.5px 1px 0.5px black;
+  font-size: 2em;
+}
 .last-year {
-  background: yellow;
+  font-size: 1.5em;
 }
 .logos {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  flex-wrap: wrap;
 }
 .logo {
-  background: coral;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 150px;
+  min-height: 150px;
+  background-position: center center;
+}
+#google {
+  background-image: url('../images/google.png');
+}
+#fb {
+  background-image: url('../images/facebook.png');
+}
+#seq {
+  background-image: url('../images/seq.png');
+}
+#stripe {
+  background-image: url('../images/stripe.png');
+}
+#lsvp {
+  background-image: url('../images/lsvp.png');
+}
+#pinterest {
+  background-image: url('../images/pin.png');
+}
+#airbnb {
+  background-image: url('../images/airbnb.png');
 }
 .this-year {
-  bacground: gray;
+  font-size: 1.5em;
 }
 .signature {
-  background: lightblue;
+  font-size: 1.5em;
 }
-
 p {
   margin: 0;
   line-height: 1.5em;

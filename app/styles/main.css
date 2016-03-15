@@ -63,6 +63,7 @@ body {
   justify-content: space-between;
   width: 85%;
   flex-wrap: wrap;
+  margin: 20px 0;
 }
 .logo {
   background-repeat: no-repeat;
@@ -91,6 +92,12 @@ body {
 }
 #airbnb {
   background-image: url('../images/airbnb.png');
+}
+#bridgewater {
+  background-image: url('../images/bridgewater.png');
+}
+#hcp {
+  background-image: url('../images/hcp.png');
 }
 .this-year {
   font-size: 1.5em;

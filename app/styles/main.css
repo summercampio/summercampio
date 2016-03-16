@@ -49,13 +49,30 @@ body {
   width: 80%;
 }
 .summary {
-  background: linear-gradient(to bottom, #2B292E 21%, #53646A 100%);  color: seashell;
+  background: rgba(201, 78, 46, 0.8);
   font-family: Avenir-Light;
-  text-shadow: 1.5px 1px 0.5px black;
-  font-size: 2em;
-}
-.last-year {
+  text-shadow: 0 0.5px 0.5px black;
   font-size: 1.5em;
+  padding: 35px 0;
+  text-align: center;
+  color: white;
+  box-shadow: #21110B 0px 0px 10px 1px;
+}
+.main-text {
+  font-size: 1.2em;
+  background: rgba(102, 147, 162, 0.5);
+  box-shadow: #21110B 0px 2px 10px -2px;
+}
+.prev-partners {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+}
+.prev-partners p {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 20px;
+  margin-bottom: -30px;
 }
 .logos {
   display: flex;
@@ -63,7 +80,6 @@ body {
   justify-content: space-between;
   width: 85%;
   flex-wrap: wrap;
-  margin: 20px 0;
 }
 .logo {
   background-repeat: no-repeat;
@@ -71,6 +87,7 @@ body {
   min-width: 150px;
   min-height: 150px;
   background-position: center center;
+  margin: 10px 0;
 }
 #google {
   background-image: url('../images/google.png');

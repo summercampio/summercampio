@@ -76,9 +76,13 @@ body {
 }
 .logos {
   display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+.logos-row {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 85%;
   flex-wrap: wrap;
 }
 .logo {

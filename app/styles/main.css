@@ -32,12 +32,14 @@ body {
 }
 .welcome-text {
   text-align: center;
-  padding: 100px 0;
+  padding: 200px 0;
   font-family: Avenir-Light;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 0px 1px 0px black;
 }
+
 .welcome-text h2 {
-  margin: 0
+  margin: 0;
+  opacity: 0.6;
 }
 .main-section {
   display: flex;
@@ -49,24 +51,24 @@ body {
   width: 80%;
 }
 .summary {
-  background: rgba(201, 78, 46, 0.8);
+  background: #D75208;
   font-family: Avenir-Light;
   text-shadow: 0 0.5px 0.5px black;
   font-size: 1.5em;
-  padding: 35px 0;
+  padding: 60px 0;
   text-align: center;
   color: white;
-  box-shadow: #21110B 0px 0px 10px 1px;
 }
 .main-text {
   font-size: 1.2em;
-  background: rgba(102, 147, 162, 0.5);
-  box-shadow: #21110B 0px 2px 10px -2px;
+  background: #F0B078;
+  padding: 100px 0;
 }
 .prev-partners {
   margin: 0;
   padding: 0;
   padding-bottom: 50px;
+  /* background: #F1D9B7; */
 }
 .prev-partners p {
   text-align: center;
@@ -74,27 +76,19 @@ body {
   padding-top: 20px;
   margin-bottom: -30px;
 }
-.logos {
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-}
-.logos-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 .logo {
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 150px;
-  min-height: 150px;
+  min-height: 50px;
   background-position: center center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 #google {
   background-image: url('../images/google.png');
+}
+#harvard {
+  background-image: url('../images/harvard.png');
 }
 #fb {
   background-image: url('../images/facebook.png');

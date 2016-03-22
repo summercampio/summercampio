@@ -75,6 +75,16 @@ body {
   padding-top: 20px;
   margin-bottom: -30px;
 }
+.prev-partners h2 {
+  width: 100%;
+  background: linear-gradient(to bottom, lightgoldenrodyellow 60%, white 100%);
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #D75208;
+  text-shadow: 0.4px 0.5px 0.5px black;
+}
 .logos {
   display: flex;
   flex-flow: row wrap;
@@ -128,8 +138,38 @@ p {
   margin: 0;
   line-height: 1.5em;
 }
+#faq {
+  background: linear-gradient(297deg, lightgoldenrodyellow 40%, #f0b078 100%);
+}
 #faq p {
   margin-bottom: 3em;
+}
+#faq h3 {
+  color: darkslategray;
+}
+#contact {
+  background: #D75208;
+  font-family: Avenir-Light;
+  text-shadow: 0 0.5px 0.5px black;
+  font-size: 1.5em;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+#contact a {
+  color: #F0B078;
+  text-shadow: 1px 1px 1px black;
+}
+#contact a:hover {
+  color: #F0B078;
+  text-shadow: 0.5px 0.5px 0.5px black;
+  text-decoration: none;
+}
+#contact a:active {
+  text-decoration: none;
+}
+#contact a:focus {
+  text-decoration: none;
 }
 .nav-pills > li > a {
   font-weight: bold;

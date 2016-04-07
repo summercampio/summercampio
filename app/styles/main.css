@@ -93,7 +93,7 @@ body {
 .logo {
   background-repeat: no-repeat;
   background-size: contain;
-  min-width: 150px;
+  min-width: 200px;
   min-height: 50px;
   background-position: center center;
   margin: 20px;
@@ -201,5 +201,11 @@ p {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    min-width: 100px;
   }
 }

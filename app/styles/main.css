@@ -1,8 +1,45 @@
+/* Effect 3: bottom line slides/fades in */
+.cl-effect-3 a {
+	padding: 8px 0;
+}
+
+.cl-effect-3 a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: rgba(0,0,0,0.1);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.cl-effect-3 a:hover::after,
+.cl-effect-3 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+.nav a:hover {
+  background: none !important;
+}
+.nav a {
+  color: black !important;
+  background: none !important;
 }
 .header, .marketing, .footer {
   padding-left: 15px;
@@ -10,6 +47,7 @@
 }
 body {
   font-family: Avenir;
+  background: url("../images/grey.png");
 }
 .header h3 {
   margin-top: 0;
@@ -25,16 +63,30 @@ body {
 }
 .splash {
   padding-top: 10px;
-  box-shadow: #21110B 0px 0px 10px 1px;
+  box-shadow: #000 0px 0px 40px 0px;
 }
 .main-content {
   font-size: 16px;
+  background-color: #FFF;
+  box-shadow: #000 0px 0px 10px 0px;
+  margin-top: -80px;
+  position: relative;
+  margin-bottom: 20px;
+  padding:40px;
+  border-radius: 2px;
 }
+
+.main-content hr {
+	max-width: 20%;
+	height: 4px;
+	background-color: #CCC;
+	margin: 80px auto;
+}
+
 .welcome-text {
   text-align: center;
-  padding: 200px 0;
+  padding: 160px 0 200px;
   font-family: Avenir-Light;
-  text-shadow: 0px 1px 0px black;
 }
 
 .welcome-text h2 {
@@ -44,30 +96,22 @@ body {
 .main-section {
   display: flex;
   align-items: center;
-  padding: 20px 0;
   flex-direction: column;
 }
-.main-section p {
-  width: 80%;
-}
 .summary {
-  background: #D75208;
   font-family: Avenir-Light;
-  text-shadow: 0 0.5px 0.5px black;
   font-size: 1.5em;
-  padding: 60px 0;
   text-align: center;
-  color: white;
+  font-style: italic;
 }
 .main-text {
   font-size: 1.2em;
-  background: #F0B078;
-  padding: 100px 0;
 }
 .prev-partners {
   margin: 0;
   padding: 0;
   padding-bottom: 50px;
+  margin-top: 80px;
 }
 .prev-partners p {
   text-align: center;
@@ -77,12 +121,10 @@ body {
 }
 .prev-partners h2 {
   width: 100%;
-  background: linear-gradient(to bottom, lightgoldenrodyellow 60%, white 100%);
   text-align: center;
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #D75208;
   text-shadow: 0.4px 0.5px 0.5px black;
 }
 .logos {
@@ -93,7 +135,7 @@ body {
 .logo {
   background-repeat: no-repeat;
   background-size: contain;
-  min-width: 150px;
+  min-width: 100px;
   min-height: 50px;
   background-position: center center;
   margin: 20px;
@@ -137,32 +179,20 @@ body {
 p {
   margin: 0;
   line-height: 1.5em;
-}
-#faq {
-  background: linear-gradient(297deg, lightgoldenrodyellow 40%, #f0b078 100%);
+  width: 100%;
 }
 #faq p {
   margin-bottom: 3em;
 }
-#faq h3 {
-  color: darkslategray;
-}
 #contact {
-  background: #D75208;
   font-family: Avenir-Light;
-  text-shadow: 0 0.5px 0.5px black;
   font-size: 1.5em;
   padding: 60px 0;
   text-align: center;
-  color: white;
 }
 #contact a {
-  color: #F0B078;
-  text-shadow: 1px 1px 1px black;
 }
 #contact a:hover {
-  color: #F0B078;
-  text-shadow: 0.5px 0.5px 0.5px black;
   text-decoration: none;
 }
 #contact a:active {
@@ -201,5 +231,11 @@ p {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    min-width: 100px;
   }
 }

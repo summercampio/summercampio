@@ -67,6 +67,7 @@ body {
 }
 .main-content {
   font-size: 16px;
+	font-family: Avenir-Light;
   background-color: #FFF;
   box-shadow: #000 0px 0px 10px 0px;
   margin-top: -80px;
@@ -75,14 +76,12 @@ body {
   padding:40px;
   border-radius: 2px;
 }
-
 .main-content hr {
 	max-width: 20%;
 	height: 4px;
 	background-color: #CCC;
 	margin: 80px auto;
 }
-
 .welcome-text {
   text-align: center;
   padding: 160px 0 200px;
@@ -98,11 +97,47 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.sign-up {
+	margin: 50px 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sign-up__btn {
+	padding: 10px;
+	width: 200px;
+	border: black;
+	box-shadow: 0px 1px 5px black;
+	border-radius: 2px 2px;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+}
+.sign-up__btn:hover {
+	text-decoration: none;
+	color: black;
+	box-shadow: 0px 1px 4px black;
+}
+.sign-up__btn:active {
+	color: black;
+	text-decoration: none;
+	box-shadow: 0px 1px 3px black;
+}
+.sign-up__btn:focus {
+	color: black;
+	text-decoration: none;
+	box-shadow: 0px 1px 3px black;
+}
+.sign-up__btn:visited {
+	color: black;
+	text-decoration: none;
+	box-shadow: 0px 1px 3px black;
+}
 .summary {
   font-family: Avenir-Light;
   font-size: 1.5em;
   text-align: center;
-  font-style: italic;
 }
 .main-text {
   font-size: 1.2em;

@@ -190,6 +190,33 @@ body {
 #stripe {
   background-image: url('../images/stripe.png');
 }
+#angle {
+  background-image: url('../images/angle.png');
+}
+#gc {
+  background-image: url('../images/gc.jpeg');
+}
+#atomic {
+  background-image: url('../images/atomic.png');
+}
+#cadre {
+  background-image: url('../images/cadre.png');
+}
+#orchard {
+  background-image: url('../images/orchard.png');
+}
+#insight {
+  background-image: url('../images/insight.png');
+}
+#yc {
+  background-image: url('../images/yc.png');
+}
+#rdv {
+  background-image: url('../images/rdv.png');
+}
+#palantir {
+  background-image: url('../images/palantir.png');
+}
 #lsvp {
   background-image: url('../images/lsvp.png');
 }
@@ -224,8 +251,6 @@ p {
   font-size: 1.5em;
   padding: 60px 0;
   text-align: center;
-}
-#contact a {
 }
 #contact a:hover {
   text-decoration: none;

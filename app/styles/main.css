@@ -80,7 +80,6 @@ body {
 	max-width: 20%;
 	height: 4px;
 	background-color: #CCC;
-	margin: 80px auto;
 }
 .welcome-text {
   text-align: center;
@@ -114,10 +113,15 @@ body {
 	text-align: center;
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 18px;
-	margin: 20px;
+	margin: 5px;
 	font-weight: bold;
 	text-decoration: none;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+	min-height: 70px;
+	max-height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .call-to-action__btn:hover,
 .call-to-action__btn:focus,
@@ -138,7 +142,6 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 50px;
-  margin-top: 80px;
 }
 .prev-partners p {
   text-align: center;
@@ -152,7 +155,6 @@ body {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-shadow: 0.4px 0.5px 0.5px black;
 }
 .logos {
   display: flex;
@@ -299,4 +301,7 @@ p {
   .logo {
     min-width: 100px;
   }
+	.call-to-action {
+		flex-direction: column;
+	}
 }

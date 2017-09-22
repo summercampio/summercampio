@@ -329,6 +329,46 @@ body {
   background-image: url(../images/via.png)
 }
 
+#a16z {
+  background-image: url(../images/a16z.png)
+}
+
+#rootvc {
+  background-image: url(../images/rootvc.png)
+}
+
+#nea {
+  background-image: url(../images/nea.jpg)
+}
+
+#square {
+  background-image: url(../images/square.jpg)
+}
+
+#quora {
+  background-image: url(../images/quora.png)
+}
+
+#fund1517 {
+  background-image: url(../images/1517.png)
+}
+
+#rockhealth {
+  background-image: url(../images/rockhealth.png)
+}
+
+#aws {
+  background-image: url(../images/aws.png)
+}
+
+#bloombergbeta {
+  background-image: url(../images/bloombergbeta.png)
+}
+
+#emerald {
+  background-image: url(../images/emerald.png)
+}
+
 .signature, .this-year {
   font-size: 1.5em
 }

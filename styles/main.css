@@ -369,6 +369,54 @@ body {
   background-image: url(../images/emerald.png)
 }
 
+#alleninstitute {
+  background-image: url(../images/alleninstitute.png)
+}
+
+#amazon {
+  background-image: url(../images/amazon.jpg)
+}
+
+#boeing {
+  background-image: url(../images/boeing.jpg)
+}
+
+#code {
+  background-image: url(../images/code.png)
+}
+
+#convoy {
+  background-image: url(../images/convoy.jpg)
+}
+
+#expedia {
+  background-image: url(../images/expedia.png)
+}
+
+#galvanize {
+  background-image: url(../images/galvanize.png)
+}
+
+#intrepidlearning {
+  background-image: url(../images/intrepidlearning.png)
+}
+
+#madrona {
+  background-image: url(../images/madrona.jpg)
+}
+
+#pioneersquarelabs {
+  background-image: url(../images/pioneersquarelabs.png)
+}
+
+#pixvana {
+  background-image: url(../images/pixvana.png)
+}
+
+#poppy {
+  background-image: url(../images/poppy.png)
+}
+
 .signature, .this-year {
   font-size: 1.5em
 }
